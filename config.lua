@@ -20,7 +20,7 @@ Config.RollableItems = { --Items player must have in inventory to iniate the rol
 }
 
 Config.UsableItems = {
-	['biscotti_gram'] = { -- The item that will get used to initiate the roll up process. Can be anything
+	['biscotti_8th'] = { -- The item that will get used to initiate the roll up process. Can be anything
 		backwood = 'biscotti_blunt', --Item needed to roll up this item as a blunt, along with the item player will recieve when finished
 		backwoods_grape = 'biscotti_blunt', --Item needed to roll up this item as a grabbajoint, along with the item player will recieve when finished
 		grabbaleaf = 'biscotti_blunt', --Item needed to roll up this item as a grabbajoint, along with the item player will recieve when finished
