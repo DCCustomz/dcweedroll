@@ -84,13 +84,11 @@ local function processItem(source, itemName)
                             -- Get the label of the rolled item
                             local rolledItem = xPlayer.getInventoryItem(rolledItemName)
                             local rolledItemLabel = rolledItem and rolledItem.label or rolledItemName
-							sendNotification(source, "Rolled up a " .. rolledItemLabel, "success")
                         elseif Config.Framework == 'QBCore' then
                             xPlayer.Functions.AddItem(rolledItemName, 1)
                             -- Get the label of the rolled item
                             local rolledItem = QBCore.Shared.Items[rolledItemName]
                             local rolledItemLabel = rolledItem and rolledItem.label or rolledItemName
-							sendNotification(source, "Rolled up a " .. rolledItemLabel, "success")
                         end
 
                         found = true
