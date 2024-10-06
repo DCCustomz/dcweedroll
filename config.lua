@@ -2,7 +2,7 @@ Config = {}
 
 Config.Framework = 'QBCore' -- or ESX
 
-Config.Notify = 'qb' -- or 'qb' or 'esx' or 'custom' (need to add your custom in server.lua) 
+Config.Notify = 'ox' -- or 'qb' or 'esx' or 'custom' (need to add your custom in server.lua) 
 
 Config.RollableItems = { --Items player must have in inventory to iniate the roll up process. Only need 1 of these.
 	blunts = {
