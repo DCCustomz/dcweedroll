@@ -8,7 +8,7 @@ Anyone who is maybe better than me at conding if you make any cool changes or ma
 Enjoy!
 
 Get the weed props pack here:
-https://dc-customs.tebex.io/package/6379840 (It's Free)
+https://store.dccustomz.com/product/6379840 (It's Free)
 
 Get the Animations pack here:
-https://dc-customs.tebex.io/package/6379040 (7.99) 
+https://store.dccustomz.com/category/2714611 (7.99) 
