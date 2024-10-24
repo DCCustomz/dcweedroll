@@ -7,6 +7,8 @@ Anyone who is maybe better than me at conding if you make any cool changes or ma
 
 Enjoy!
 
+Join The discord: https://discord.gg/dccustomz
+
 Get the weed props pack here:
 https://store.dccustomz.com/product/6379840 (It's Free)
 
