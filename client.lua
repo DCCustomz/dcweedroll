@@ -17,29 +17,6 @@ AddEventHandler("dc_weedroll:rollblunt", function()
         AttachEntityToEntity(Wood, player, GetPedBoneIndex(player, 60309), 0.079, -0.01, 0.025, 0.0, 0.0, 1.0, true, true, false, false, 2, true)
         AttachEntityToEntity(Bud, player, GetPedBoneIndex(player, 28422), 0.085, 0.02, -0.045, 0.0, 0.0, 1.0, true, true, false, false, 2, true)
         TaskPlayAnim(player, "custom@rollingupanim", "rollingup_clip", 8.0, -8, -1, 49, 0, 0, 0, 0)
-        
-        TriggerEvent('esx_progressbar:start', {
-            name = "random_task",
-            duration = 24600,
-            label = "Rollin Up",
-            useWhileDead = false,
-            canCancel = false,
-            controlDisables = {
-                disableMovement = false,
-                disableCarMovement = false,
-                disableMouse = false,
-                disableCombat = true,
-            },
-            animation = {},
-            prop = {},
-            propTwo = {}
-        }, function(cancelled)
-            if not cancelled then
-                -- Complete the task
-            else
-                -- Task cancelled
-            end
-        end)
 
         Citizen.Wait(9300)
         DeleteObject(Bud)
@@ -75,29 +52,6 @@ AddEventHandler("dc_weedroll:rollpaper", function()
         AttachEntityToEntity(Paper, player, GetPedBoneIndex(player, 60309), 0.079, -0.01, 0.025, 0.0, 0.0, 1.0, true, true, false, false, 2, true)
         AttachEntityToEntity(Bud, player, GetPedBoneIndex(player, 28422), 0.085, 0.02, -0.045, 0.0, 0.0, 1.0, true, true, false, false, 2, true)
         TaskPlayAnim(player, "custom@rollingupanim", "rollingup_clip", 8.0, -8, -1, 49, 0, 0, 0, 0)
-        
-        TriggerEvent('esx_progressbar:start', {
-            name = "random_task",
-            duration = 24600,
-            label = "Rollin Up",
-            useWhileDead = false,
-            canCancel = false,
-            controlDisables = {
-                disableMovement = false,
-                disableCarMovement = false,
-                disableMouse = false,
-                disableCombat = true,
-            },
-            animation = {},
-            prop = {},
-            propTwo = {}
-        }, function(cancelled)
-            if not cancelled then
-                -- Complete the task
-            else
-                -- Task cancelled
-            end
-        end)
 
         Citizen.Wait(9300)
         DeleteObject(Bud)
